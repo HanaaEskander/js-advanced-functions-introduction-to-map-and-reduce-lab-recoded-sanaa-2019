@@ -1,5 +1,5 @@
 // Your code here
-function mapToNegativize(meme){
+function mapToNegativize(sourceArray){
   let newArr = [];
   for (const item of arr) {
     newArr.push(item * -1);
@@ -7,12 +7,12 @@ function mapToNegativize(meme){
   return newArr;
 }
 
-function mapToNoChange(arr){
+function mapToNoChange(sourceArray){
   let newArr = arr;
   return newArr;
 }
 
-function mapToDouble(arr){
+function mapToDouble(sourceArray){
   let newArr = [];
   for (const item of arr) {
     newArr.push(item * 2);
