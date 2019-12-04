@@ -1,5 +1,5 @@
 // Your code here
-function mapToNegativize(arr){
+function mapToNegativize(meme){
   let newArr = [];
   for (const item of arr) {
     newArr.push(item * -1);
