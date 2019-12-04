@@ -1,21 +1,15 @@
 // Your code here
-function mapToNegativize(sourceArray){
-    let myArray = [];
-    for (let item of sourceArray) {
-      myArray.push(item * -1);
-    }
-    return myArray;
-  }
-  
+
   function mapToNoChange(sourceArray){
     let myArray = sourceArray;
     return myArray;
   }
   
-  function mapToDouble(sourceArray){
+
+  function mapToNegativize(sourceArray){
     let myArray = [];
     for (let item of sourceArray) {
-      myArray.push(item * 2);
+      myArray.push(item * -1);
     }
     return myArray;
   }
@@ -28,6 +22,13 @@ function mapToNegativize(sourceArray){
     return myArray;
   }
   
+    function mapToDouble(sourceArray){
+    let myArray = [];
+    for (let item of sourceArray) {
+      myArray.push(item * 2);
+    }
+    return myArray;
+  }
   function reduceToTotal(sourceArray, startingPoint=0){
     for (let item of sourceArray) {
       startingPoint = startingPoint + item;
