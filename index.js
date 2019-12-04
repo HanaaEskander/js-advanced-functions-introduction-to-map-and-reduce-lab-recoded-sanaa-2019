@@ -37,7 +37,7 @@ function mapToNegativize(sourceArray){
   
   function reduceToAllTrue(sourceArray){
     for (let item of sourceArray) {
-      if(item == false){
+      if(item === false){
         return false;
       }
     }
@@ -46,7 +46,7 @@ function mapToNegativize(sourceArray){
   
   function reduceToAnyTrue(sourceArray){
     for (let item of sourceArray) {
-      if(item == true){
+      if(item === true){
         return true;
       }
     }
