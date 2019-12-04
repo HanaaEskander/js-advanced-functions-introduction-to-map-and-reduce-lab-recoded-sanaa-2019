@@ -20,7 +20,7 @@ function mapToDouble(sourceArray){
   return newArr;
 }
 
-function mapToSquare(arr) {
+function mapToSquare(sourceArray) {
   let newArr = [];
   for (const item of arr) {
     newArr.push(item * item);
